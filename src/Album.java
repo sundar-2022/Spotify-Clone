@@ -14,10 +14,12 @@ public class Album {
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
@@ -26,14 +28,17 @@ public class Album {
     }
 
     public void setArtist(String artist) {
+
         this.artist = artist;
     }
 
     public List<Songs> getSongs() {
+
         return songs;
     }
 
     public void setSongs(List<Songs> songs) {
+
         this.songs = songs;
     }
 
